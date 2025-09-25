@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terap-IA | Automação inteligente para resumos clínicos</title>
+  <meta name="description" content="Terap-IA automatiza anotações e análises pós-sessão para profissionais da saúde mental com inteligência artificial, reduzindo horas de trabalho manual." />
+  <meta name="keywords" content="Terap-IA, SaaS, saúde mental, inteligência artificial, anotações clínicas, terapia" />
+  <meta property="og:title" content="Terap-IA | Automação inteligente para resumos clínicos" />
+  <meta property="og:description" content="Economize horas na elaboração de prontuários. Deixe a Terap-IA transformar suas sessões em insights claros e confiáveis." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://terap-ia.com/" />
+  <meta property="og:image" content="https://terap-ia.com/assets/og-image.jpg" />
+  <link rel="canonical" href="https://terap-ia.com/" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              DEFAULT: '#6366F1',
+              dark: '#4F46E5'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="font-sans antialiased bg-slate-950 text-slate-50 overflow-hidden">
+  <div class="absolute inset-0 -z-10 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900"></div>
+  <div class="absolute -left-24 -top-24 h-80 w-80 rounded-full bg-primary/20 blur-3xl"></div>
+  <div class="absolute -right-20 -bottom-32 h-72 w-72 rounded-full bg-indigo-500/10 blur-3xl"></div>
+
+  <header class="absolute top-0 left-0 right-0">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 lg:px-12">
+      <a href="#" class="flex items-center gap-2 text-lg font-semibold tracking-tight">
+        <span class="flex h-9 w-9 items-center justify-center rounded-full bg-primary/20 text-primary">T</span>
+        <span>Terap-IA</span>
+      </a>
+      <a href="https://app.terap-ia.me" target="_blank" class="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-4 py-2 text-sm font-medium text-primary transition hover:bg-primary hover:text-white">
+        Login
+      </a>
+    </div>
+  </header>
+
+  <main class="relative flex h-screen items-center mt-20">
+    <div class="mx-auto flex max-w-6xl flex-col-reverse gap-12 px-6 pb-16 lg:flex-row lg:items-center lg:gap-16 lg:px-12">
+      <section class="w-full space-y-10 lg:w-1/2">
+        <div class="space-y-6">
+          <span class="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium uppercase tracking-wide text-primary">
+            Inteligência artificial para terapeutas
+          </span>
+          <h1 class="text-4xl font-semibold leading-tight text-white lg:text-5xl">
+            Transforme suas sessões clínicas em insights sem esforço
+          </h1>
+          <p class="max-w-xl text-lg text-slate-300">
+            A Terap-IA automatiza anotações e análises pós-sessão com IA de ponta, reduzindo horas de trabalho manual e liberando você para focar no cuidado ao paciente.
+          </p>
+        </div>
+        <div class="grid gap-6 text-sm text-slate-200" id="beneficios">
+          <div class="flex items-start gap-3">
+            <span class="mt-0.5 h-2.5 w-2.5 rounded-full bg-primary"></span>
+            <p><strong class="text-white">Resumos instantâneos:</strong> receba prontuários claros e estruturados segundos após cada encontro.</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="mt-0.5 h-2.5 w-2.5 rounded-full bg-primary"></span>
+            <p><strong class="text-white">Insights acionáveis:</strong> identifique padrões, emoções dominantes e próximos passos sugeridos automaticamente.</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="mt-0.5 h-2.5 w-2.5 rounded-full bg-primary"></span>
+            <p><strong class="text-white">Conformidade garantida:</strong> armazenamento seguro e compatível com LGPD, com controles granulares de acesso.</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-start gap-4" id="contato">
+          <a href="mailto:contato@terap-ia.com" class="inline-flex items-center justify-center gap-3 rounded-full bg-primary px-6 py-3 text-base font-semibold text-white shadow-lg shadow-primary/30 transition hover:bg-primary-dark">
+            Fale conosco para a lista de espera!
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="h-5 w-5"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12h14m0 0-5-5m5 5-5 5"/></svg>
+          </a>
+          <p class="text-xs uppercase tracking-[0.2em] text-slate-400">Resposta em até 1 dia útil</p>
+        </div>
+      </section>
+
+      <aside class="w-full lg:w-1/2" id="como-funciona">
+        <div class="relative overflow-hidden rounded-3xl border border-white/5 bg-white/5 p-8 backdrop-blur">
+          <div class="absolute inset-0 rounded-3xl border border-white/10"></div>
+          <div class="mx-auto max-w-md space-y-6">
+            <header class="space-y-2 text-center">
+              <p class="text-xs font-semibold uppercase tracking-[0.3em] text-primary">Como funciona</p>
+              <h2 class="text-2xl font-semibold text-white">Fluxo simples, resultados profundos</h2>
+              <p class="text-sm text-slate-300">Em três etapas, você transforma conversas em dados clínicos confiáveis.</p>
+            </header>
+            <ol class="space-y-4 text-sm text-slate-100">
+              <li class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary">1. Captura inteligente</p>
+                <p class="mt-2 text-slate-200">Integre seu serviço de teleconsulta ou grave áudios com nosso aplicativo seguro.</p>
+              </li>
+              <li class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary">2. Análise contextual</p>
+                <p class="mt-2 text-slate-200">Modelos de IA treinados em cuidados terapêuticos interpretam nuances, emoções e objetivos.</p>
+              </li>
+              <li class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-primary">3. Entrega instantânea</p>
+                <p class="mt-2 text-slate-200">Receba resumos, recomendações e indicadores de risco diretamente no seu prontuário eletrônico.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="absolute inset-x-0 bottom-6">
+    <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-6 text-xs text-slate-500 sm:flex-row lg:px-12">
+      <p>&copy; <span id="ano-atual"></span> Terap-IA. Todos os direitos reservados.</p>
+      <div class="flex items-center gap-4">
+        <a href="mailto:privacidade@terap-ia.com" class="transition hover:text-slate-300">Privacidade</a>
+        <a href="mailto:suporte@terap-ia.com" class="transition hover:text-slate-300">Suporte</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const anoAtual = new Date().getFullYear();
+    document.getElementById('ano-atual').textContent = anoAtual;
+
+    const loginClock = document.getElementById('login-clock');
+    const updateClock = () => {
+      if (!loginClock) return;
+      const agora = new Date();
+      loginClock.textContent = new Intl.DateTimeFormat('pt-BR', { hour: '2-digit', minute: '2-digit' }).format(agora);
+      const ateProximoMinuto = 60000 - (agora.getSeconds() * 1000 + agora.getMilliseconds());
+      setTimeout(updateClock, ateProximoMinuto);
+    };
+    updateClock();
+  </script>
+</body>
+</html>
